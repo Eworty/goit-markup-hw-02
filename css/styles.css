@@ -11,9 +11,9 @@
 }
 
 body {
-  font-family: 'Raleway', 'Roboto', sans-serif;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -46,7 +46,6 @@ body {
 
 /* Nav */
 .nav-link {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -60,7 +59,6 @@ body {
 }
 
 .header-address {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,13 +73,10 @@ body {
 
 /* MAIN */
 .title {
-  font-family: 'Roboto';
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 /* Hero selection */
@@ -90,7 +85,6 @@ body {
 }
 
 .hero-title {
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -109,12 +103,11 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-background-color);
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Features */
 .list-title {
-  font-family: 'Roboto';
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -122,8 +115,6 @@ body {
 }
 
 .list-text {
-  font-family: 'Roboto';
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -140,7 +131,6 @@ body {
 }
 
 .item-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -150,8 +140,6 @@ body {
 }
 
 .item-text {
-  font-family: 'Roboto';
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -167,7 +155,6 @@ body {
 /* Logo */
 .footer-logo {
   font-family: 'Raleway';
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -176,9 +163,7 @@ body {
 
 /* Address */
 .address {
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -194,6 +179,14 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.contact-link:hover,
+.contact-link:focus {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
 
 /* PORTFOLIO-PAGE */
 .portfolio-page {
@@ -203,7 +196,6 @@ body {
 /* portf-btn */
 .portfolio-btn {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -217,7 +209,6 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -233,18 +224,12 @@ body {
 }
 
 .portfolio-tittle {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 2.38;
   letter-spacing: 0.03em;
