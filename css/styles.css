@@ -132,8 +132,6 @@ body {
 
 .item {
   background-color: var(--primary-background-color);
-  width: 270px;
-  height: 368px;
 }
 
 .item-title {
@@ -214,8 +212,6 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  font-family: 'Roboto';
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -237,6 +233,6 @@ body {
 
 .portfolio-text {
   font-size: 16px;
-  line-height: 2.38;
+  line-height: 1, 87;
   letter-spacing: 0.03em;
 }
