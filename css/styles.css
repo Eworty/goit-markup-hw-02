@@ -132,6 +132,8 @@ body {
 
 .item {
   background-color: var(--primary-background-color);
+  width: 270px;
+  height: 368px;
 }
 
 .item-title {
