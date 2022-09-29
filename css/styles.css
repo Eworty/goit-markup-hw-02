@@ -58,6 +58,10 @@ body {
   color: var(--accent-text-color);
 }
 
+.nav-link.current {
+  color: var(--accent-text-color);
+}
+
 .header-address {
   font-weight: 500;
   font-size: 14px;
@@ -122,7 +126,7 @@ body {
 }
 
 /* Team */
-.team-section {
+.team {
   background-color: var(--tertiary-background-color);
 }
 
